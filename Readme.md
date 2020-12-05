@@ -1,8 +1,6 @@
 Project done by _Teja S_
 
-Backend Deployed URL: 
-
-Frontend Deployed URL:
+Deployed URL: https://eduteclog.herokuapp.com
 
 # Components
 

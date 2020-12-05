@@ -17,7 +17,7 @@ class App extends Component {
 		} else {
 			const data1 = this.state.rollNumbers.split(',');
 			const headers = { 'Content-Type': 'application/json' };
-			const { data } = await axios.post('http://localhost:4000/getresults', data1, { headers: headers });
+			const { data } = await axios.post('https://eduteclog.herokuapp.com/getresults', data1, { headers: headers });
 			this.setState({ results: data.results });
 		}
 	};
