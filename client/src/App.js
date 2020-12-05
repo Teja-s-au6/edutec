@@ -25,6 +25,7 @@ class App extends Component {
 			});
 			this.setState({ results: data.results });
 		}
+		this.setState({ disable: false });
 	};
 
 	render() {
